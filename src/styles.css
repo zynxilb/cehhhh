@@ -1,0 +1,60 @@
+@import "tailwindcss";
+@import "@fontsource/cairo/arabic-400.css";
+@import "@fontsource/cairo/arabic-500.css";
+@import "@fontsource/cairo/arabic-600.css";
+@import "@fontsource/cairo/arabic-700.css";
+@import "@fontsource/cairo/latin-400.css";
+@import "@fontsource/cairo/latin-500.css";
+@import "@fontsource/cairo/latin-600.css";
+@import "@fontsource/cairo/latin-700.css";
+@import "@fontsource/jetbrains-mono/latin-500.css";
+@import "@fontsource/jetbrains-mono/latin-600.css";
+
+@theme {
+  --font-sans: "Cairo", "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --color-bg: #0d0e11;
+  --color-card: #16171b;
+  --color-line: #1f2229;
+  --color-ink: #eeeeee;
+  --color-muted: #6d6d75;
+  --color-accent: #d84040;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  html,
+  body {
+    height: 100%;
+    background: var(--color-bg);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+  }
+}
+
+.move-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #2c303a transparent;
+}
+
+.move-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.move-scroll::-webkit-scrollbar-thumb {
+  background: #2c303a;
+}
+
+.eval-fill {
+  transition: width 180ms ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .eval-fill {
+    transition: none;
+  }
+}

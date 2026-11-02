@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Outplay",
+      "hasCanvas": false,
+      "bodyTextLen": 442,
+      "bodyTextHash": "8501b4752cac1791ecf89cdb1103531958a242460a2aed8712128ae427f6a5d7",
+      "bodyTextPrefix": "Outplay مباراة الأوبرا باريس 1858 · دفاع فيليدور 1–0 الخصم الدوق",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Outplay",
+      "hasCanvas": false,
+      "bodyTextLen": 416,
+      "bodyTextHash": "f7f0c1ac632a00c37539ec6420a4505af9a7fc3e35cedf03f7e56a0eac336d2a",
+      "bodyTextPrefix": "Outplay مباراة الأوبرا 1–0 الخصم الدوق والكونت 8 7 6 5 4 3 2 1 a",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
